@@ -21,27 +21,14 @@ body {
     }
     li {
       background: white;
-      padding: 0;
+      padding: 20px;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      overflow: hidden;
       transition: transform 0.2s, box-shadow 0.2s;
-      display: flex;
-      flex-direction: column;
     }
     li:hover {
       transform: translateY(-4px);
       box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-    }
-    .imagen {
-      width: 100%;
-      height: 140px;
-      background-size: cover;
-      background-position: center;
-    }
-    .contenido {
-      padding: 15px;
-      flex: 1;
     }
     .titulo {
       font-size: 1.1rem;
@@ -54,8 +41,4 @@ body {
       color: #555;
       line-height: 1.4;
     }
-    .filosofia { background-image: url("imagenes/filosofia.jpg"); }
-    .web { background-image: url("imagenes/webDesign.jpg"); }
-    .sistemas { background-image: url("imagenes/AnalisisYDiseñoDeSistemasInformativas.png"); }
-    .bd { background-image: url("imagenes/BasesDeDatos.jpg"); }
-    .estadistica { background-image: url("imagenes/estadistica.png"); }
+  
